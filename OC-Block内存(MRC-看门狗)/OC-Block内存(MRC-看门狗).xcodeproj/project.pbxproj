@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC160E521CBF467D0035C844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC160E511CBF467D0035C844 /* main.m */; };
+		CC160E5A1CBF46920035C844 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CC160E591CBF46920035C844 /* Person.m */; };
+		CC160E5D1CBF46970035C844 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = CC160E5C1CBF46970035C844 /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC160E4C1CBF467D0035C844 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC160E4E1CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-Block内存(MRC-看门狗)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC160E511CBF467D0035C844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC160E581CBF46920035C844 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CC160E591CBF46920035C844 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CC160E5B1CBF46970035C844 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		CC160E5C1CBF46970035C844 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC160E4B1CBF467D0035C844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC160E451CBF467D0035C844 = {
+			isa = PBXGroup;
+			children = (
+				CC160E501CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */,
+				CC160E4F1CBF467D0035C844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC160E4F1CBF467D0035C844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC160E4E1CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC160E501CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */ = {
+			isa = PBXGroup;
+			children = (
+				CC160E511CBF467D0035C844 /* main.m */,
+				CC160E581CBF46920035C844 /* Person.h */,
+				CC160E591CBF46920035C844 /* Person.m */,
+				CC160E5B1CBF46970035C844 /* Dog.h */,
+				CC160E5C1CBF46970035C844 /* Dog.m */,
+			);
+			path = "OC-Block内存(MRC-看门狗)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC160E4D1CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC160E551CBF467D0035C844 /* Build configuration list for PBXNativeTarget "OC-Block内存(MRC-看门狗)" */;
+			buildPhases = (
+				CC160E4A1CBF467D0035C844 /* Sources */,
+				CC160E4B1CBF467D0035C844 /* Frameworks */,
+				CC160E4C1CBF467D0035C844 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC-Block内存(MRC-看门狗)";
+			productName = "OC-Block内存(MRC-看门狗)";
+			productReference = CC160E4E1CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC160E461CBF467D0035C844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CC160E4D1CBF467D0035C844 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CC160E491CBF467D0035C844 /* Build configuration list for PBXProject "OC-Block内存(MRC-看门狗)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC160E451CBF467D0035C844;
+			productRefGroup = CC160E4F1CBF467D0035C844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC160E4D1CBF467D0035C844 /* OC-Block内存(MRC-看门狗) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC160E4A1CBF467D0035C844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC160E5D1CBF46970035C844 /* Dog.m in Sources */,
+				CC160E5A1CBF46920035C844 /* Person.m in Sources */,
+				CC160E521CBF467D0035C844 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC160E531CBF467D0035C844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC160E541CBF467D0035C844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC160E561CBF467D0035C844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC160E571CBF467D0035C844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC160E491CBF467D0035C844 /* Build configuration list for PBXProject "OC-Block内存(MRC-看门狗)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC160E531CBF467D0035C844 /* Debug */,
+				CC160E541CBF467D0035C844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC160E551CBF467D0035C844 /* Build configuration list for PBXNativeTarget "OC-Block内存(MRC-看门狗)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC160E561CBF467D0035C844 /* Debug */,
+				CC160E571CBF467D0035C844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC160E461CBF467D0035C844 /* Project object */;
+}
